@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- + 1 - 2 + 3 - 4 + 5 = 3 -->
+    <script>
+        let no=Number(prompt("Enter any values :"));
+        let i;
+        let total = 0;
+        for(i=1;i<=no;i++){
+            if(i%2==0){
+                document.writeln(" - ",i);
+                total-=i
+            }
+          else{
+                document.writeln(" + ",i);
+                total+=i
+            }
+        }
+        document.writeln(" = ",total);
+
+    </script>  
+</body>
+</html>

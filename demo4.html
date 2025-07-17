@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=Number(prompt("Enter number :"));
+        let i;
+        let sum=0;
+
+        for(i=1;i<=num;i++){
+            document.writeln(i,"&nbsp;&nbsp;");
+            if(i<num){
+                document.writeln("+ &nbsp;&nbsp;");
+            }
+            sum+=i;
+        }
+        document.writeln("= &nbsp;&nbsp;",sum);
+    </script>  
+</body>
+</html>

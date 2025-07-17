@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Click Example</title>
+    <style>
+        h1{
+            color: blueviolet;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+    Befor:
+        a=20
+        b=40
+
+    After:
+        a=40
+        b=20 
+    -->
+
+    <script>
+        let a =20;
+        let b =40;
+        
+        let temp=0;
+        document.writeln("Befor : <br> a = "+a+"<br>b = ",b);
+        temp=a;
+        a=b;
+        b=temp;
+
+        document.writeln("<br>After : <br> a = "+a+"<br>b = ",b);
+
+    </script>
+</body>
+</html>
